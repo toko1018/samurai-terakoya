@@ -574,7 +574,7 @@
     スマートフォン用のスタイル
     =====================*/
     @media screen and (max-width: 767px) {
-        /* PC用ナビゲーション非表示 */
+        /* ここにMISSIONページのスマートフォン用のCSSを記述する */
         #nav-pc {
             display: none;
         }
@@ -880,29 +880,29 @@
 
         /* mission.html用スタイル */
         /* ミッションのメインビジュアル */
-        #mission-main {
+        .mission-main {
             height: 256px;
             margin-top: 4%;
             position: relative;
         }
 
-        #mission-main-inner {
-            height: 80%;
+        .mission-main-inner {
+            height: 50%;
             background-size: cover;
         }
 
-        #mission-title {
+        .mission-title {
             width: 136px;
             height: 256px;
             position: absolute;
             top: -10%;
         }
 
-        #mission-title h1 span {
+        .mission-title h1 span {
             font-size: 18px;
         }
 
-        #mission-title > p {
+        .mission-title > p {
             top: 180px;
             left: 20px;
             font-size: 13px;
